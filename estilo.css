@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(42, 42, 240, 0.781);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #0000004f;
+}
+
+section #imagem {
+    width: 80%; /* Ou um valor específico que preferir */
+    display: block; /* Isso faz a imagem ser tratada como um bloco, permitindo a centralização com margin */
+    margin: auto; /* Isso centraliza a imagem horizontalmente dentro de sua seção */
+    padding: 5%;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
